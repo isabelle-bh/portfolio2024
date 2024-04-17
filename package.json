@@ -1,13 +1,19 @@
 {
-  "homepage": "https://isabelle-bh.github.io/portfolio2024/isabelle-portfolio/",
+  "homepage": "https://isabelle-bh.github.io/portfolio2024/",
   "name": "portfolio2023",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },  
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
